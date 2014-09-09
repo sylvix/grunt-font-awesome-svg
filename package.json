@@ -1,23 +1,23 @@
 {
   "name": "grunt-font-awesome-svg",
   "description": "Get font-awesome and parse it into separate SVG files",
-  "version": "0.0.1",
-  "homepage": "https://github.com/tsyganov/grunt-font-awesome-svg",
+  "version": "0.0.2",
+  "homepage": "https://github.com/sylvix/grunt-font-awesome-svg",
   "author": {
-    "name": "Dmitrii Tsyganov",
+    "name": "Dmitrii sylvix",
     "email": "sylvix.dh@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/tsyganov/grunt-font-awesome-svg.git"
+    "url": "git://github.com/sylvix/grunt-font-awesome-svg.git"
   },
   "bugs": {
-    "url": "https://github.com/tsyganov/grunt-font-awesome-svg/issues"
+    "url": "https://github.com/sylvix/grunt-font-awesome-svg/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/tsyganov/grunt-font-awesome-svg/blob/master/LICENSE-MIT"
+      "url": "https://github.com/sylvix/grunt-font-awesome-svg/blob/master/LICENSE-MIT"
     }
   ],
   "engines": {
