@@ -1,7 +1,7 @@
 {
   "name": "grunt-font-awesome-svg",
   "description": "Get font-awesome and parse it into separate SVG files",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "homepage": "https://github.com/sylvix/grunt-font-awesome-svg",
   "author": {
     "name": "Dmitrii sylvix",
@@ -27,7 +27,6 @@
     "js-yaml": "^3.2.2",
     "mkdirp": "^0.5.0",
     "request": "^2.42.0",
-    "svgo": "^0.4.5",
     "when": "^3.4.5"
   },
   "devDependencies": {
