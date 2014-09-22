@@ -127,11 +127,15 @@ FontAwesomeSvgProcessor.prototype._parseFont = function(result) {
 };
 
 FontAwesomeSvgProcessor.prototype._getTemplate = function(options) {
+    var PIXEL = 128;
+
+    var advWidth = (options.advWidth ? options.advWidth : 12*PIXEL);
+
     var params = {
-        shiftX: (2048 - (options.advWidth ? options.advWidth : 2048)) / 2,
-        shiftY: 2048 / 7,
-        width: 2048,
-        height: 2048,
+        shiftX: -(-(14*PIXEL - advWidth)/2),
+        shiftY: -(-2*PIXEL),
+        width: 14*PIXEL,
+        height: 14*PIXEL,
         path: options.path
     };
 
